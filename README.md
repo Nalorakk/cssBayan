@@ -1,2 +1,2 @@
 # cssBayan
-work: https://Nalorakk.github.io/cssBayan/cssBayan/index.html
+work: https://Nalorakk.github.io/cssBgiayan/cssBayan/index.html
