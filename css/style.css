@@ -71,3 +71,40 @@ body{
     }
    
 }
+@media(max-width:1180px) {
+    .container {
+        max-width: 70%;
+    }
+    .accordion__icon  {
+        width: 6%;
+        opacity: 1;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .accordion__title {
+        font-size: 1.5rem;
+    }
+    .accordion__content img {
+        max-width: 50%;
+    }
+}
+@media(max-width:620px) {
+    .container {
+        max-width: 90%;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .accordion__title {
+        font-size: 1rem;
+    }
+    .accordion__icon  {
+        width: 8%;
+        background-size: 1rem;
+        opacity: 1;
+    }
+    .accordion__content img {
+        max-width: 60%;
+    }
+}
