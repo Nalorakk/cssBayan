@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(198, 192, 211, 0.5);
+}
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+.title {
+    font-size: 4em;
+}
+.accordion__item {
+    border-top: 0.1rem grey solid;
+}
+.accordion__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.accordion__content img {
+    max-width: 40%;
+}
+.accordion__title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    color: skyblue;
+}
+.accordion__icon {
+    width: 5%;
+    background-image: url(/assets/svg/contrastL.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all 0.7s ease 0s;
+}
+.accordion__input {
+    appearance: none;
+}
+.accordion__content {
+    display: none;
+}
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+    transition: all 3s ease 0s;
+}
+.accordion__input:checked ~ .accordion__title .accordion__icon {
+    background-image: url(/assets/svg/contrastR.svg)
+}
+
+.accordion__input:checked + .accordion__title {
+    color: black;
+}
+.accordion__input:checked ~ .accordion__content:hover, .container:hover  {
+    cursor: pointer;
+}
+.container:hover .accordion__title{
+    color: black ;
+}
+
+@media(hover:hover) {
+    .accordion__container:hover  .accordion__title .accordion__icon {
+        opacity: 1;
+    }
+   
+}
