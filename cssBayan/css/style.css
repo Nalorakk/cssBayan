@@ -26,7 +26,7 @@ body{
 }
 .accordion__icon {
     width: 5%;
-    background-image: url(/assets/svg/contrastL.svg);
+    background-image: url(/cssBayan/assets/svg/contrastL.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center right;
